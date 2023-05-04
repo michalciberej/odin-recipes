@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 1000px;
+    height: 650px;
+    margin: auto;
+    padding-top: 25px;
+}
+
+h2 {
+    position: absolute;
+    top: -15px;
+    left: 15px;
+    color: white;
+    font-size: 32px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+a {
+    text-decoration: none;
+}
+
+a > div {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.a {
+    background-image: url(../img/bun-bo-nam-bo.jpg);
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+
+.b {
+    background-image: url(../img/bun-cha.jpg);
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+
+.c {
+    background-image: url(../img/pho-bo.jpg);
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
+
+.d {
+    background-image: url(../img/pad-thai.jpg);
+    background-size: 450px 300px;
+    background-repeat: no-repeat;
+}
