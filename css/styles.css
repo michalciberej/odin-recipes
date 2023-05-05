@@ -27,8 +27,7 @@ h1 {
     gap: 35px;
     width: 1000px;
     height: 700px;
-    margin: auto;
-    margin-top: 40px;
+    margin: 10px auto;
 }
 
 .recipeName {
@@ -54,9 +53,10 @@ a > div {
 
 .footerContainer {
     text-align: center;
-    margin-top: 85px;
-    color: black;
-    font-size: 22px;}
+    margin-top: 55px;
+    color: inherit;
+    font-size: 22px;
+}
 
 i {
     margin: 0 5px;
@@ -88,13 +88,13 @@ i {
 
 .recipeContainer {
     position: relative;
-    margin: 95px auto 0;
+    margin: 55px auto;
     width: 450px;
     height: 690px;
     border: 1px solid black;
     border-radius: 15px;
     background: wheat;
-    padding: 40px 25px 15px;
+    padding: 40px 25px 24px 25px;
 }
 
 .recipeHeader {
