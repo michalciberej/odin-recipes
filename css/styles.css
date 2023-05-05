@@ -1,3 +1,7 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body {
     margin: 0;
     width: 100vw;
@@ -9,16 +13,20 @@ body {
     justify-content: center;
 }
 
+h1 {
+    font-size: 48px;
+}
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 35px;
     width: 1000px;
-    height: 650px;
+    height: 700px;
     margin: auto;
-    padding-top: 25px;
+    margin-top: 40px;
 }
 
 h2 {
@@ -34,12 +42,27 @@ a {
     text-decoration: none;
 }
 
+p {
+    margin: 0 auto;
+}
+
 a > div {
     position: relative;
     width: 450px;
     height: 300px;
     border: 1px solid black;
     border-radius: 15px;
+}
+
+.footerContainer {
+    text-align: center;
+    margin-top: 85px;
+    color: black;
+    font-size: 22px;
+}
+
+i {
+    margin: 0 5px;
 }
 
 .a {
